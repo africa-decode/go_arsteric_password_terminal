@@ -33,6 +33,7 @@ var (
 // If prompt is not empty, it will be output as a prompt to the user
 // If masked is true, typing will be matched by asterisks on the screen.
 // Otherwise, typing will echo nothing.
+
 func GetUsersPassword(masked bool, r FieldReader, w io.Writer) ([]byte, error) {
 	var err error
 	var p, bs, ms []byte
