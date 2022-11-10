@@ -1,4 +1,4 @@
-package go_asterisks_password_terminal
+package go_asterisks
 
 import (
 	"errors"
