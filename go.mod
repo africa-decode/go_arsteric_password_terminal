@@ -1,3 +1,3 @@
-module go_asterisks_password_terminal
+module go_asterisks
 
 go 1.18
